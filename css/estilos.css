@@ -1,0 +1,340 @@
+﻿body{
+	background-image: url("../Imagens/montanhas_nevadas.jpg");
+	background-attachment: fixed;
+}
+
+.fundoalgoritmo{
+	background-image: url("../Imagens/algoritmo.jpg");
+}
+
+.fundowebsecurity{
+	background-image: url("../Imagens/web_security.jpg");
+}
+
+.fundodesign{
+	background-image: url("../Imagens/design_digital.jpg");
+}
+
+.fundomatematica{
+	background-image: url("../Imagens/matematica.jpg");
+}
+
+.fundoportugues{
+	background-image: url("../Imagens/portugues.jpg");
+}
+
+.fundopadroeseprojetos{
+	background-image: url("../Imagens/codigos.jpg");
+}
+
+.fundodemoniaco{
+	background-image: url("../Imagens/demon.jpg");
+}
+
+.logopentragama{
+	background-image: url("../Imagens/pentagrama.png");
+}
+
+.fundocartilha{
+	background-image: url("../Imagens/cadeado.jpg");
+}
+
+.fundoestrategia{
+	background-image: url("../Imagens/estrategia.jpg");
+}
+
+
+img{
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 300px;
+}
+
+.logodaora{
+	max-height:100%;
+	width:auto;
+	height:10vw;
+}
+nav{
+	float: right;
+	
+}
+
+li{
+	float: left;
+	margin-right: 170px;
+	font-size: 25px;
+	display: inline;
+	margin-top: 60px;
+	font-family: berlin sans fb;
+	padding-bottom: 10px;
+}
+
+
+section{
+	position:absolute;
+	top: 0;
+	left:0;
+	width:100%;
+	box-sizing: border-box;
+	background-image: linear-gradient(to bottom, white, transparent);
+	height: 180px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: white;
+	cursor: pointer;
+}
+
+article{
+	margin: 10%;
+	width: 80%;
+	margin-top: 300px;
+	background-color: white;
+	opacity: 1.0;
+	box-shadow: 0px 0px 30px 5px black;
+	border-radius: 30px;
+	position:absolute;
+}
+
+li ul{
+	position: absolute;
+	display: none;
+	background-color: white;
+	width: 300px;
+	padding: 0px;
+	margin-top: 10px;
+}
+
+li ul li{
+	width: 100%;
+	font-size: 20px;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 0px;
+	left: 0px;
+	box-sizing: border-box;
+}
+
+li:hover ul, li.over ul{
+	display: block;
+	z-index: 1;
+	box-shadow: 0px 0px 30px 2px black;
+}
+
+li ul li a:hover{
+	color: gray;
+}
+
+.sobremim{
+	background-color: black;
+	margin-top:300px;
+}
+
+.titulo{
+	margin-top: 400px;
+	margin-left:20px;
+	font-family: Old English Text MT;
+	font-size: 60px;
+
+}
+
+.assustador{
+	font-family: Old English Text MT;
+	font-size: 35px;
+}
+
+.vermeio{
+	background-image: linear-gradient(to bottom, red, transparent);
+}
+
+#imagem{
+	float: right;
+	margin: 50px;
+}
+
+h1{
+	margin-left: 45px;
+	margin-top: 40px;
+	font-size: 40px;	
+	font-family: times new roman;
+}
+
+h2{
+	margin-left: 45px;
+	margin-top: 100px;
+	font-size: 45px;
+}
+
+h3{
+	text-align: right;
+	margin-right: 3%;
+	margin-top: 10%;
+}
+
+p{
+	font-size: 25px;
+	margin: 20px;
+	text-align: justify;
+	font-family: colibri;
+	line-height: 1.5;
+}
+
+.bandas{
+	width: 300px;
+	margin: 59px;
+	position: relative;
+
+}
+
+#blindguardian{
+	margin-bottom: 100px;
+}
+
+#gammaray{
+	margin-bottom: 100px;
+}
+
+#wintersun{
+	margin-bottom: 100px;
+}
+
+.h1_sobremim{
+	color:white;
+	font-family: Old English Text MT;
+	margin-left: 400px;
+}
+
+.paragrafo_sobremim{
+	color:white;
+	font-family: Old English Text MT;
+}
+
+.fatec{
+	width: 1000px;
+	margin-left: 140px;
+}
+
+.seguranca:hover{
+	color: gray;
+}
+
+.seta{
+	width: 64px;
+	margin: 12px;
+	position: fixed;
+	bottom:0;
+	left:0;
+}
+
+.arquitetura_da_informacao{
+	position:relative;
+	left:35%;
+	
+}
+
+#titulo{
+	font-size:30px;
+}
+
+.else{
+	width:600px;
+}
+
+.elseif{
+	width:600px;
+}
+
+.while{
+	width:600px;
+}
+
+.dowhile{
+	width:600px;
+}
+
+.for{
+	width:600px;
+}
+
+@media only screen and (max-width:1399px){
+	.logodaora{
+		margin-left:-15vw;
+		left: 50%;
+		position: relative;
+		height: 15vw;
+	}
+	
+	nav{
+		position:relative;
+		top:0%;
+		width:100%;
+		height: 50px;
+	}
+	
+	#menu{
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height:50px;
+		margin:0px;
+		padding:0;
+		box-sizing:border-box;
+	}
+	
+	li{
+		top: 0;
+		left:0;
+		position: relative;
+		margin:0;
+		height: 50px;
+		width:25%;
+		box-sizing:border-box;
+		text-align: center;
+		padding-top: 2%;
+		
+	}
+	
+	article{
+		margin-top: 30vw;
+	}
+	
+	h1{
+		font-size: 4vw;
+		
+	}
+	
+	p{
+		font-size: 3vw;
+	}
+	
+}
+
+.fatec{
+	width: 60vw;
+	margin-left:10vw;
+}
+
+@media only screen and (max-width:600px){
+	a{
+		font-size:4vw;
+	}
+	
+	h1{
+		font-size: 5vw;
+	}
+	
+	h2{
+		font-size: 5vw;
+	}
+	
+	
+	p{
+		font-size: 4vw;
+	}
