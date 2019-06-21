@@ -188,7 +188,7 @@ p{
 .bandas{
 	width: 300px;
 	margin: 59px;
-	position: relative;
+	
 
 }
 
@@ -207,7 +207,7 @@ p{
 .h1_sobremim{
 	color:white;
 	font-family: Old English Text MT;
-	margin-left: 400px;
+	margin-left: 40px;
 }
 
 .paragrafo_sobremim{
@@ -321,6 +321,36 @@ p{
 	margin-left:10vw;
 }
 
+.else{
+	width:50vw;
+}
+
+.elseif{
+	width:50vw;
+}
+
+.while{
+	width:50vw;
+}
+
+.dowhile{
+	width:50vw;
+}
+
+.for{
+	width:50vw;
+}
+
+.bandas{
+	width:20vw;
+}
+
+#pentagrama{
+	width:20vw;
+}
+
+
+
 @media only screen and (max-width:600px){
 	a{
 		font-size:4vw;
@@ -338,3 +368,31 @@ p{
 	p{
 		font-size: 4vw;
 	}
+	
+.else{
+	width:70vw;
+}
+
+.elseif{
+	width:70vw;
+}
+
+.while{
+	width:70vw;
+}
+
+.dowhile{
+	width:70vw;
+}
+
+.for{
+	width:70vw;
+}
+
+.bandas{
+	width: 50vw;
+}
+
+#pentagrama{
+	width:20vw;
+}
